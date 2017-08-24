@@ -1,0 +1,7 @@
+{
+    "name": "lgk-auth",
+    "version": "1.0.0",
+    "main": "AuthenticationPluginWebServerMixin.js",
+    "apiPrefix": "auth",
+    "internal": true
+}

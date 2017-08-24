@@ -1,0 +1,22 @@
+{
+  "server": {
+    "host": "localhost",
+    "port": 7002,
+    "log": "./logs/config.log"
+  },
+  "messages": {
+    "requestQ": "lgk/config/request",
+    "replyQ": "lgk/config/response",
+    "server": "amqp://localhost",
+    "directExchangeName": "direct/lgk/config",
+    "fanoutRequestExchangeName": "fanout/lgk/config/request",
+    "fanoutReplyExchangeName": "fanout/lgk/config/reply"
+  },
+  "plugins": {
+    "dir": "hapi/config/plugins"
+  },
+  "zookeeper": {
+    "server": "localhost:2181",
+    "timeout": 200000
+  }
+}
